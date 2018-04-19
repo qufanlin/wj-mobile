@@ -1,0 +1,61 @@
+.my{
+  width: 100%;
+  .msg{
+    width: 100%;
+    .fun_btn{
+      text-align: right;
+      padding: 2%;
+      i{
+        font-size: 2rem;
+      }
+    }
+    .fun_cont{
+      padding: 0 2%;
+      overflow: hidden;
+      img{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        display: inline-block;
+        -webkit-border-radius: 50%;
+        vertical-align: middle;
+        border: 1px solid #dfdce6;
+      }
+      div{
+        width: 70%;
+        display: inline-block;
+        vertical-align: middle;
+        p{
+          width: 100%;
+          overflow: hidden;
+          text-align: left;
+          span{
+            width: 50%;
+            display: inline-block;
+            float: left;
+          }
+        }
+      }
+      i{
+        float: right;
+        font-size: 2.4rem;
+        margin-top: 1rem;
+      }
+    }
+    .fun_list{
+      width: 100%;
+      margin-top: 2rem;
+      border-top: 1px solid #dfdce6;
+      li{
+        border-bottom: 1px solid #dfdce6;
+        font-size: 1.4rem;
+        padding: 1rem 0;
+        i{
+          margin: 0 5%;
+          font-size: 2rem;
+        }
+      }
+
+    }
+  }
+}

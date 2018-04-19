@@ -1,0 +1,66 @@
+.consume{
+  width: 100%;
+  .c_cont{
+    width: 100%;
+    border-top: 1px solid #dfdce6;
+    .totle{
+      width: 100%;
+      background-color: #26a2ff;
+      font-size: 1.2rem;
+      p{
+        margin: 0;
+        height: 2.4rem;
+        line-height: 2.4rem;
+        color: white;
+        padding: 0 1rem;
+        span{
+          margin-right: 1rem;
+          i{
+            color: yellow;
+          }
+        }
+      }
+    }
+    .order{
+      width: 100%;
+      .o_list{
+        width: 94%;
+        margin: 1rem auto 0;
+        border: 1px solid #dfdce6;
+        border-radius: 0.4rem;
+        -webkit-border-radius: 0.4rem;
+        padding: 1rem;
+        p{
+          width: 100%;
+          height: 2.4rem;
+          line-height: 2.4rem;
+          overflow: hidden;
+          span{
+            width: 50%;
+            float: left;
+            &:last-child{
+              text-align: right;
+            }
+          }
+        }
+        li{
+          width: 100%;
+          padding: 0 2%;
+          border: 1px solid #dfdce6;
+          overflow: hidden;
+          img{
+            width: 4rem;
+            height: 4rem;
+            display: inline-block;
+            vertical-align: middle;
+          }
+          div{
+            width: 80%;
+            display: inline-block;
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+}

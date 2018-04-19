@@ -1,0 +1,54 @@
+.analysis{
+  width: 100%;
+  background-color: #f1f1f1;
+  .a_title{
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  .a_cont{
+    background-color: white;
+    width: 94%;
+    padding: 1rem;
+    margin: 0 auto;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    .p1{
+      line-height: 2.4rem;
+      font-size: 1.4rem;
+    }
+    table{
+      width: 100%;
+      border-top: 1px solid #dfdce6;
+      text-align: left;
+      th{
+        border-bottom: 1px solid #dfdce6;
+      }
+    }
+    ul{
+      width: 100%;
+      border-top: 1px solid #dfdce6;
+      overflow: hidden;
+      li{
+        width: 100%;
+        overflow: hidden;
+        span{
+          width: 50%;
+          display: inline-block;
+          &:nth-of-type(2n){
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+  .a_btn{
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    .mint-button{
+      width: 30%;
+    }
+  }
+}

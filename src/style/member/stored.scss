@@ -1,0 +1,69 @@
+.stored{
+  width: 100%;
+  .s_cont{
+    width: 100%;
+    border-top: 1px solid #dfdce6;
+    .s_head{
+      width: 100%;
+      background-color: #26a2ff;
+      font-size: 1.2rem;
+      p{
+        width: 32%;
+        text-align: center;
+        display: inline-block;
+        vertical-align: middle;
+        color: white;
+        &:first-child{
+          border-right: 1px solid #dfdce6;
+        }
+        span{
+          width: 100%;
+          display: inline-block;
+          text-align: center;
+          &:last-child{
+            color: yellow;
+          }
+        }
+      }
+    }
+    .s_list{
+      width: 100%;
+      li{
+        width: 100%;
+        line-height: 2.4rem;
+        border-bottom: 1px solid #dfdce6;
+        .p1{
+          width: 100%;
+          padding: 0 1rem;
+          border-bottom: 1px solid #dfdce6;
+        }
+        .list_cont{
+          width: 100%;
+          padding: 0 1rem;
+          position: relative;
+          height: 2.4rem;
+          overflow: hidden;
+          i{
+            position: absolute;
+            font-size: 2.4rem;
+            right: 0;
+          }
+          p{
+            width: 90%;
+            overflow: hidden;
+            span{
+              width: 50%;
+              float: left;
+              &:last-child{
+                text-align: right;
+              }
+            }
+          }
+        }
+        .height{
+          height: auto;
+        }
+      }
+    }
+  }
+}

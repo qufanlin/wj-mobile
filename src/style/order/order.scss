@@ -1,0 +1,95 @@
+.order{
+  width: 100%;
+  overflow: hidden;
+  padding-top: 3rem;
+  .mint-search{
+    height: auto;
+    display: inline-block;
+    .fixed{
+      position: fixed;
+      top: 0;
+      padding-top: 8px;
+      z-index: 100;
+      width: 98%;
+      padding-left: 1%;
+      max-width: 640px;
+      background-color: white;
+      .m_back{
+        display: inline-block;
+        width: 10%;
+        height: 3rem;
+        line-height: 3rem;
+        float: left;
+        i{
+          font-size: 2.4rem;
+        }
+      }
+      .mint-searchbar{
+        width: 70%;
+        float: left;
+        background-color: white;
+        border: 1px solid #dfdce6;
+        padding: 0 10px 0 0;
+        height: 3rem;
+        line-height: 3rem;
+        i{
+          font-size: 2rem;
+        }
+        input{
+          font-size: 1.4rem;
+        }
+      }
+      .screen{
+        width: 18%;
+        float: right;
+        height: 3rem;
+        line-height: 3rem;
+      }
+      .mint-button--normal{
+        font-size: 1.4rem;
+      }
+    }
+    ul{
+      margin-top: 1rem;
+      overflow: hidden;
+      li{
+        width: 100%;
+        border-bottom: 1px solid #dfdce6;
+        a{
+          display: inline-block;
+          width: 98%;
+          padding: 1%;
+          div{
+            width: 100%;
+            overflow: hidden;
+            height: 3rem;
+            p{
+              height: 3rem;
+              margin: 0;
+              white-space:nowrap;
+              line-height: 3rem;
+              overflow: hidden;
+            }
+            .p1{
+              width: 55%;
+              float: left;
+            }
+            .p2{
+              width: 42%;
+              float: right;
+              .success{
+                color: #037bbc;
+              }
+              .back{
+                color: #fe0357;
+              }
+              .pay{
+                color: #00a4aa;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

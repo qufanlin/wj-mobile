@@ -1,0 +1,87 @@
+.manager{
+  width: 100%;
+  padding-top: 4rem;
+  .m_header{
+    width: 100%;
+    padding: 0 2%;
+    height: 4rem;
+    line-height: 4rem;
+    overflow: hidden;
+    border-bottom: 1px solid #dfdce6;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    a{
+      display: inline-block;
+      width: 10%;
+      height: 4rem;
+      line-height: 4rem;
+      float: left;
+      i{
+        font-size: 2.4rem;
+      }
+    }
+    .m_inp{
+      width: 90%;
+      float: left;
+      position: relative;
+      .mintui-search{
+        position: absolute;
+        top: 0;
+        left: 0.2rem;
+        font-size: 2rem;
+      }
+      input{
+        width: 100%;
+        height: 2.8rem;
+        line-height: 2.8rem;
+        padding-left: 2rem;
+        font-size: 1.4rem;
+        border: 1px solid #dfdce6;
+      }
+      .icon-saoma{
+        position: absolute;
+        top: 0;
+        right: 0.3rem;
+        font-size: 2rem;
+      }
+    }
+  }
+  .m_cont{
+    width: 100%;
+    .page-part{
+      display: inline-block;
+      width: 100%;
+      padding-top: 0.8rem;
+      position: fixed;
+      top: 4rem;
+      z-index: 2;
+      background-color: white;
+      .mint-tab-item{
+        border: 1px solid #dfdce6;
+        color: #333;
+        width: 25%;
+        margin-right: 1%;
+        display: inline-block;
+        padding: 1rem 0;
+      }
+      .is-selected{
+        border: 1px solid #26a2ff;
+        color: #26a2ff;
+      }
+      .totle{
+        background-color: #f1f1f1;
+        padding-left: 2rem;
+        font-size: 1.4rem;
+        line-height: 2.8rem;
+        text-align: left;
+        margin-top: 1rem;
+        border-top: 1px solid #dfdce6;
+        border-bottom: 1px solid #dfdce6;
+      }
+    }
+    .mint-tab-container{
+      margin-top: 8rem;
+    }
+  }
+}
